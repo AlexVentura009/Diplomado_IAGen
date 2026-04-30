@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplomado en IAGen para la Transformación Digital Educativa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="executive-header">
+        <div class="header-content-executive">
+            <div class="logo-container">
+                <img src="https://i.ibb.co/C3wvTqVV/Escudo-UQRoo-SIN-FONDO.png" alt="Logo UQRoo" class="header-logo-image">
+                <div class="divider-vertical"></div>
+                <div class="header-titles-executive">
+                    <div class="title-main-executive">Diplomado en IAGen para la Transformación Digital Educativa</div>
+                    <div class="title-subtitle-executive">Innovación Académica de Vanguardia</div>
+                </div>
+            </div>
+            
+            <nav class="nav-executive">
+                <button class="nav-item-executive active" data-section="descripcion">
+                    <i class="fas fa-rocket"></i>
+                    <span>Descripción</span>
+                </button>
+                <button class="nav-item-executive" data-section="perfiles">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Perfiles</span>
+                </button>
+                <button class="nav-item-executive" data-section="metodologia">
+                    <i class="fas fa-sitemap"></i>
+                    <span>Metodología</span>
+                </button>
+                <button class="nav-item-executive" data-section="instructores">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>Instructores</span>
+                </button>
+                <button class="nav-item-executive" data-section="modulos">
+                    <i class="fas fa-cube"></i>
+                    <span>Módulos</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="executive-main">
+        <div id="dynamic-content"></div>
+    </main>
+
+    <div class="modal-executive" id="instructorModal">
+        <div class="modal-content-executive">
+            <button class="modal-close-executive" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header-executive">
+                <h2 class="modal-title-executive" id="modalInstructorName"></h2>
+                <p class="modal-subtitle-executive" id="modalInstructorExpertise"></p>
+                <div class="modal-module-executive" id="modalInstructorModule"></div>
+            </div>
+            <div class="modal-bio-executive" id="modalInstructorBio"></div>
+        </div>
+    </div>
+
+    <footer class="executive-footer">
+        <div class="footer-content-executive">
+            <div class="footer-institutional">Universidad Autónoma del Estado de Quintana Roo</div>
+            <div class="footer-departments">Dirección General de Desarrollo Académico</div>
+            <div class="footer-departments">Departamento de Innovación y Multimedia Educativa</div>
+            <div class="footer-rights">2026 © Todos los derechos reservados</div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
